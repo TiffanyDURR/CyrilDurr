@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Global */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+article {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  color: #d6c4ba;
+  margin-top: 28px;
+}
+
+article h1 i {
+  margin-right: 12px;
+  font-size: 28px;
+}
+
+.tag {
+  background-color: #af9f96;
+  color: #fde8db;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.tag span {
+  font-weight: 600;
+}
+
+.tag i {
+  font-size: 13px;
+  margin-right: 6px;
+}
+
+/* Oeuvres */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.roman-01 .fa-angle-down {
+  display: none;
+}
+
+.roman-02 .fa-angle-down {
+  display: none;
+}
+
+.livre-content {
+  margin-bottom: 40px;
+}
+
+.livre i {
+  cursor: pointer;
+}
+
+.book-header {
+  display: flex;
+  align-items: center;
+}
+
+.book-header img {
+  width: 240px;
+}
+
+.book-header-infos {
+  margin-left: 40px;
+}
+
+.book-header-infos p span {
+  font-weight: 500;
+}
+
+.book-header-infos p a {
+  color: #6e645e;
+}
+
+.book-header-infos p a:hover {
+  color: #af9f96;
+}
+
+.book-header-infos p i {
+  color: #af9f96;
+  font-size: 14px;
+}
+
+.book-main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf9f6;
+  padding: 40px;
+  margin-top: 40px;
+  border-radius: 8px;
+}
+
+.book-main-img img {
+  width: 220px;
+  border-radius: 8px;
+}
+.book-main {
+  width: 860px;
+}
+
+.bold-italic {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.book-quote {
+  margin-top: 40px;
+  margin-bottom: 28px;
+}
+
+.book-quote i {
+  color: #af9f96;
+  margin-right: 8px;
+}
+
+b {
+  font-weight: 600;
+}
+
+.book-collection span {
+  font-weight: 500;
+}
+
+.book-collection {
+  color: #af9f96;
+  margin-bottom: 40px;
+}
+
+.buy-button {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.buy-button i {
+  margin-right: 8px;
+}
+
+.icons-buy {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icons-buy img {
+  padding: 10px;
+  background-color: #fdf9f6;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.icons-buy img:hover {
+}
+
+.book-buy {
+  display: flex;
+  align-items: center;
+}
+
+.book-buy-image img {
+  width: 480px;
+  margin-right: 40px;
+}
+
+.libraire-infos {
+  margin-top: 40px;
+  font-size: 16px;
+}
+
+.libraire-infos span {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.libraire-infos a {
+  color: #d6c4ba;
+  font-weight: 600;
+}
+/* Index */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.signature-auteur {
+  font-weight: 600;
+  margin-top: 20px;
+  display: block;
+}
