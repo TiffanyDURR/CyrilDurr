@@ -5,7 +5,7 @@
 
 footer {
   width: 100%;
-  background-image: url(/assets/wallpaper.jpeg);
+  background-image: url(/./assets/wallpaper.jpeg);
   background-size: cover;
   padding-bottom: 40px;
   padding-top: 40px;
