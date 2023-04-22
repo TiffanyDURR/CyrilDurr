@@ -118,6 +118,10 @@ article h1 i {
   width: 860px;
 }
 
+.book-main p {
+  padding-right: 40px;
+}
+
 .bold-italic {
   font-weight: 600;
   font-style: italic;
@@ -195,6 +199,14 @@ b {
 .libraire-infos a {
   color: #d6c4ba;
   font-weight: 600;
+}
+
+.arti-header img {
+  width: 230px;
+}
+
+.arti-header {
+  margin-top: 34px;
 }
 /* Index */
 /* --------------------------------------------------------------------------------------------------------------------------------------------------------------- */

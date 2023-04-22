@@ -44,3 +44,10 @@ article p {
 .page-content section {
   width: 100%;
 }
+
+.header-content,
+article,
+.footer-content {
+  padding-left: 40px;
+  padding-right: 40px;
+}
