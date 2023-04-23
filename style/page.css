@@ -464,6 +464,86 @@ b {
 .page-header-content nav ul li a.spec {
   width: 200px;
 }
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#gallery img {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  margin: 8px;
+  cursor: pointer;
+}
+
+#viewer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  overflow-y: auto;
+}
+
+#viewer.open {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#viewer img {
+  max-width: 80%;
+  max-height: 80%;
+  margin: auto;
+}
+
+#viewer figcaption {
+  color: white;
+}
+
+.visu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#viewer {
+  text-align: center;
+}
+
+.visu button {
+  height: 100%;
+  padding-top: 400px;
+  padding-bottom: 400px;
+  padding-left: 100px;
+  padding-right: 100px;
+  cursor: pointer;
+}
+
+html body div.page-container div.page-content section article div.UMAC figure#viewer.open div div.visu button {
+  box-shadow: 0px;
+  -webkit-box-shadow: 0px 0px 0em #e34069;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  border: 0px solid #0a0a0a;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.visu span i {
+  font-size: 60px;
+  color: #ffffff;
+  cursor: pointer;
+
+  font-weight: bold;
+}
+
 /* Index */
 /* --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
