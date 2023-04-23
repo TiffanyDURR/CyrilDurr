@@ -208,6 +208,262 @@ b {
 .arti-header {
   margin-top: 34px;
 }
+
+.visus-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.visus-img img {
+  width: 180px;
+  height: 248px;
+  object-fit: cover;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.title-page {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1;
+  color: #af9f96;
+}
+
+/* Articles */
+
+.articles {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 34px;
+}
+
+.articles2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 34px;
+}
+
+.articles2 div {
+  width: 45%;
+  margin-left: 18px;
+  margin-right: 18px;
+  background-color: #fdf9f6;
+  padding: 40px;
+  border-radius: 8px;
+  margin-bottom: 34px;
+}
+
+.articles2 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.articles2 .art-date {
+  font-weight: bold;
+}
+
+.articles div {
+  width: 30%;
+  margin-left: 18px;
+  margin-right: 18px;
+  background-color: #fdf9f6;
+  padding: 40px;
+  border-radius: 8px;
+  margin-bottom: 34px;
+}
+
+.articles img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.art-date {
+  text-align: center;
+  border-bottom: 1px solid #d6c4ba;
+  margin-bottom: 4px;
+}
+
+.art-title {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.art-infos {
+  text-align: center;
+}
+
+.art-title1 {
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #d6c4ba;
+  margin-bottom: 4px;
+}
+
+.UMAC {
+  line-height: 2.4;
+  background-color: #fdf9f6;
+  padding: 40px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.UMAC a {
+  color: #2b4761;
+}
+
+.UMAC p {
+  margin-bottom: 24px;
+}
+
+.umac-logo {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.umac-logo p {
+  text-align: center;
+  font-weight: bold;
+}
+
+#random-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+#random-list li {
+  margin-left: 4px;
+  margin-right: 4px;
+  background-color: #d6c4ba;
+  color: #ffffff;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  line-height: 1;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.travaux-imahes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.travaux-imahes img {
+  width: 100px;
+  height: auto;
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-top: 14px;
+  border-radius: 8px;
+}
+
+.biopart1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.biopart1 div {
+  width: 680px;
+}
+
+.biopart1 img {
+  display: block;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  margin-left: 40px;
+}
+
+.biotitle {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.4;
+  color: #d6c4ba;
+  margin-bottom: 40px;
+  margin-top: 24px;
+}
+
+.imgs-bio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.imgs-bio img {
+  width: 420px;
+  height: 320px;
+  object-fit: cover;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+}
+
+.titre-ouvrage {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1;
+  margin-bottom: 40px;
+  color: #d6c4ba;
+  margin-top: 28px;
+}
+
+.center-faq h5 {
+  font-size: 18px;
+  color: #d6c4ba;
+}
+
+.cat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cat img {
+  margin-left: 40px;
+}
+
+.amazon {
+  text-align: center;
+}
+
+.amazon a {
+  color: #2b4761;
+}
+
+.bigoo p {
+  text-align: center;
+}
+
+.bigoo .date {
+  font-weight: 500;
+}
+
+.page-header-content nav ul li a.spec {
+  width: 200px;
+}
 /* Index */
 /* --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
